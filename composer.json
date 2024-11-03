@@ -1,0 +1,17 @@
+{
+    "name": "mylek/magento-module-test",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "php": ">=8.1.0 <8.3.0",
+        "magento/framework": "*",
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MylSoft\\Test\\": ""
+        }
+    }
+}
